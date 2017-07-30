@@ -1,0 +1,63 @@
+html {
+
+}
+
+/*HEADER*/
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*BANNER*/
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.banner-img {
+  width: 60%;
+}
+
+
+/*FEATURES*/
+
+.features {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.features-main {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.story {
+  width: 423px;
+}
