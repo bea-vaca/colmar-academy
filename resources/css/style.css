@@ -2,6 +2,14 @@ html {
 font-family: Tahoma;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
+h2, h4 {
+  color: darkslategrey;
+}
+
 /*HEADER*/
 
 header {
@@ -42,7 +50,11 @@ li {
   flex-direction: row;
   width: 100%;
   height: 100%;
-  background-color: lightgrey;
+  background-color: gainsboro;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
 }
 
 .banner-main {
@@ -76,9 +88,14 @@ li {
   margin-top: 50px;
   text-align: center;
   color: white;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  background-color: darkgrey;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: darkslategrey;
+}
+
+.button:hover {
+  background-color: white;
+  color: darkgrey;
 }
 
 /*FEATURES*/
@@ -114,6 +131,10 @@ li {
   padding: 16px;
 }
 
+.story:hover {
+  background-color: gainsboro;
+}
+
 .story-img {
   width: 35%
 }
@@ -139,7 +160,7 @@ li {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: lightgrey;
+  background-color: gainsboro;
 }
 
 .learn-heading {
@@ -169,6 +190,10 @@ li {
 
 .course .description {
   padding: 16px;
+}
+
+.course:hover {
+  background-color: gainsboro;
 }
 
 /*EXHIBIT*/
@@ -242,6 +267,7 @@ footer span {
 
 .banner-content {
   width: 100%;
+  padding-bottom: 32px;
 }
 
 .banner-content h1,
@@ -301,6 +327,11 @@ footer span {
 
 .course {
   width: 100%;
+}
+
+.course:hover {
+  background-color: gainsboro;
+  border: dotted 1px darkslategrey;
 }
 
 .course img,
